@@ -39,32 +39,16 @@
 
         //Ejercicio 4
         echo '<h2> Ejercicio 4: </h2>';
+
+        $mi_array[0] = 'Digno';
+        $mi_array[1] = 'Alexander';
+        $mi_array[2] = 'La cata';
+
+        foreach($mi_array as $valor){
+            echo $valor.'<br>';
+        }
     
     ?>
-
-    <?php
-
-        //Funciones Predefinidas
-        //Ejercicio 1
-        $url = 'https://www.youtube.com';
-        //header('Location:'.$url);
-
-        //Ejercicio 2 
-
-
-        //Ejercicio 3 
-        echo $_SERVER['HTTP_HOST'];
-        echo 'IP del Cliente: '.$_SERVER['REMOTE_ADDR'].'<br>';
-        echo 'IP del Servidor: '.$_SERVER['SERVER_ADDR'].'<br>';
-
-
-        //Ejercicio 4 
-        echo 'Version de PHP: '.PHP_VERSION;
-    
-    ?>
-
-    
-
 
 </body>
 </html>
